@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFF"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.gr.facultyengagementbook.Admin.FacultyTab.AdminFacultyDetails">
+
+
+    <TextView
+        android:layout_width="match_parent"
+
+        android:layout_height="3dp"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/grey"
+        android:textColor="@color/colorPrimary"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:text="Dr. Rohit Agrawal"
+        android:padding="5dp"
+        android:id="@+id/admin_faculty_details_name"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="1.5dp"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        >
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorPrimary"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:text="Mobile No :"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="9039888667"
+            android:singleLine="true"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:id="@+id/admin_faculty_details_mobileNo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorPrimary"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:text="Email id :"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_height="match_parent"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="xyz@gmail.com"
+            android:singleLine="true"
+            android:padding="5dp"
+            android:id="@+id/admin_faculty_details_email"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="8dp"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white"
+            android:text="Date"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:padding="8dp"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white"
+            android:text="Branch"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:padding="8dp"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white"
+            android:text="Sem"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:text="Period"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.8"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Assigned to-"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"/>
+
+  <android.support.v7.widget.RecyclerView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_margin="5dp"
+      android:id="@+id/admin_recycler_view_faculty_details"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

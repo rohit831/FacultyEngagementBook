@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Faculty Engagement Book</string>
+    <string name="Branch_spinner">Branch</string>
+    <string name="Semester_spinner">Semester</string>
+
+
+</resources>

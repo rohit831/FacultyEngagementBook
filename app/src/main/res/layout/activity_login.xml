@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.8"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:hint="Mobile no."
+            android:inputType="number"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/mobileNo_Login"
+            android:gravity="bottom"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginLeft="5dp"
+            android:gravity="bottom"
+            android:id="@+id/password_Login"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="Login"
+            android:onClick="LoginBtnClicked"
+            android:textColor="#FFF"
+            android:background="@drawable/rectangle_dark"
+            android:id="@+id/LoginBtn"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Not Registered Yet?"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:gravity="bottom"
+            style="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:text="Register Here!"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:gravity="center"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            android:onClick="RegisterHereClicked"
+            android:id="@+id/registerHere_Login"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

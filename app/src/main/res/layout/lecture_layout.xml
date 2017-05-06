@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp">
+
+    <TextView
+
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@color/lightBlue"
+        android:padding="5dp"
+        android:textColor="#FFF"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        android:text="Period 1"
+        android:gravity="center"
+        android:id="@+id/period_field" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@color/lightBlue"
+        android:padding="5dp"
+        android:textColor="#FFF"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        android:text="CSE"
+        android:gravity="center"
+        android:id="@+id/branch_field" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@color/lightBlue"
+        android:padding="5dp"
+        android:textColor="#FFF"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        android:text="5th Sem"
+        android:gravity="center"
+        android:id="@+id/semester_field" />
+
+</LinearLayout>

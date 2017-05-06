@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginLeft="5dp"
+        android:hint="Name"
+        android:singleLine="true"
+        android:inputType="text"
+        android:gravity="bottom"
+        android:id="@+id/name_SignUp"
+        style="@style/Base.TextAppearance.AppCompat.Title"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginLeft="5dp"
+        android:hint="Mobile No"
+        android:inputType="number"
+        android:singleLine="true"
+        android:gravity="bottom"
+        android:id="@+id/mobileNo_SignUp"
+        style="@style/Base.TextAppearance.AppCompat.Title"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:singleLine="true"
+        android:layout_weight="2"
+        android:layout_marginLeft="5dp"
+        android:hint="Email id"
+        android:inputType="textEmailAddress"
+        android:gravity="bottom"
+        android:id="@+id/emailId_SignUp"
+        style="@style/Base.TextAppearance.AppCompat.Title"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginLeft="5dp"
+        android:hint="Password"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:gravity="bottom"
+        android:id="@+id/password_SignUp"
+        style="@style/Base.TextAppearance.AppCompat.Title"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginLeft="5dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:gravity="bottom"
+        android:singleLine="true"
+        android:id="@+id/confirm_password_SignUp"
+        style="@style/Base.TextAppearance.AppCompat.Title"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/rectangle_dark"
+        android:text="SIGN UP"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:id="@+id/signUpBtn"
+        android:onClick="signUpClicked"
+        style="@style/Base.TextAppearance.AppCompat.Title"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>

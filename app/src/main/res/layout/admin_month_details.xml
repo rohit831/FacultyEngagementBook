@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:text="April 2017"
+        android:padding="5dp"
+        android:id="@+id/admin_month_details_header"
+        android:textStyle="bold"
+        />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:id="@+id/admin_recycler_view_month_details">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

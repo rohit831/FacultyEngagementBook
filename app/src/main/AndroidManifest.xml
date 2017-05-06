@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gr.facultyengagementbook">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Timetable.EditTimetable" />
+        <activity android:name=".TimetableTab.AvailableFaculty.AvailableFaculty" />
+        <activity android:name=".Authentication.SignUp" />
+        <activity android:name=".HomeScreen.HomeScreen" />
+        <activity android:name=".Authentication.Login">
+
+        </activity>
+        <activity
+            android:name=".Admin.HomeScreen.AdminHomeScreen"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Admin.DateTab.DateDetails"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Admin.FacultyTab.AdminFacultyDetails"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Admin.DateTab.MonthDetails" />
+        <activity
+            android:name=".SplashScreen.SplashScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
